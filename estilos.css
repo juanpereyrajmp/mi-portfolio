@@ -335,10 +335,3 @@ footer .arriba{
 footer .redes a:hover{
     background-color: #299be7;
 }
-
-/* RESPONSIVE */
-@media screen and (max-width:980px){
-    nav{
-        display: none;
-    }
-}
