@@ -3,36 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio Juan Pereyra</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>    
-        <div>
-            <a href="" target="_self">
-                <img src="./Imagenes/logo.png" alt="Logo-JMP">
-            </a>
-        </div>
-        <div>
-            <label for="">Juan Martin Pereyra</label>
-        </div>
-        <div>
-            <a href="./estudios.html">
-                <span>Estudios</span>
-            </a>
-            <a href="./experiencia.html">
-                <span>Experiencia</span>
-            </a>
-            <a href="./proyectos.html">
-                <span>Proyectos</span>
-            </a>
-            <a href="./contacto.html">
-                <span>Contacto</span>
-            </a>
-        </div>
-    </header>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#" ><img src="Imagenes/logo.png" alt="Logo-JMP"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="Inicio">Inicio</a></li>
+                    <li><a href="Sobre Mi">Sobre mi</a></li>
+                    <li><a href="Conocimientos">Conocimientos</a></li>
+                    <li><a href="Proyectos">Proyectos</a></li>
+                    <li><a href="Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
     <main>
         <section>
-            <img width="300px" src="./Imagenes/img-juan-pereyra.jpg" alt="Juan Pereyra">
+            <img width="300px" src="Imagenes/img-juan-pereyra.jpg" alt="Juan Pereyra">
         </section>
         <section>
             <h1>Juan Martin Pereyra</h1>
@@ -47,7 +44,7 @@
     </main>
     <footer>
         <div>
-            <img src="./Imagenes/logo.png" alt="Logo-JMP">
+            <img src="Imagenes/logo.png" alt="Logo-JMP">
         </div>
         <div>
             <ul>
