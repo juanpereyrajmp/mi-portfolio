@@ -91,9 +91,14 @@ html{
     font-size: 42px;
     font-family: 'Righteous';
 }
-.inicio.contenido-banner h2{
+.inicio .contenido-banner h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.inicio .contenido-banner h3{
     font-size: 15px;
     font-weight: normal;
+    padding: 5px;
 }
 .inicio .contenido-banner .redes a{
     color: #fff;
@@ -137,6 +142,30 @@ html{
 .sobremi .contenido-seccion p span{
     color: #299be7;
     font-weight: bold;
+}
+
+/* CONOCIMIENTOS */
+.conocimientos{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.conocimientos h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contenedor-conocimientos{
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor-conocimientos img{
+    margin-top: 20px;
+    display: block;
+    width: 10%;
+    margin: auto;
 }
 
 
