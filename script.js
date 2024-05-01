@@ -1,1 +1,0 @@
-let menuVisible = false;
